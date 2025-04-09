@@ -29,7 +29,7 @@ namespace Mango.Web.Services
             return await this.SendAsync<T>(new ApiRequest()
             {
                 ApiType = Const.ApiType.DELETE,
-                Url = Const.ProductAPIBase + "/api/products" + id,
+                Url = Const.ProductAPIBase + "/api/products/" + id,
                 AccessToken = ""
             });
         }
