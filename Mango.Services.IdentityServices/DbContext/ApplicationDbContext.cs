@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Mango.Services.ProductAPI.DbContexts
+namespace Mango.Services.IdentityServices.DbContexts
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
